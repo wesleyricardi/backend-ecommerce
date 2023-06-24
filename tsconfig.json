@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "module": "NodeNext",
+        "moduleResolution": "nodenext",
+        "target": "ES2020",
+        "sourceMap": true,
+        "outDir": "dist",
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+    },
+    "include": ["src/**/*"],
+    "exclude": [
+        "src/**/*.spec.ts",
+        "src/**/*.test.ts"
+    ]
+    
+}
