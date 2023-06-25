@@ -1,5 +1,5 @@
 import { Router, Request, Response } from 'express';
-import { throwUnauthorizedError } from './helpers/app-erros.js';
+import { throwUnauthorizedError } from './helpers/app-error.js';
 
 export const routes = Router();
 

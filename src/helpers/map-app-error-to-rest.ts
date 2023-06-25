@@ -1,4 +1,4 @@
-import { ErrorCode } from './app-erros.js';
+import { ErrorCode } from './app-error.js';
 
 export function mapErrorCodeToStatusCode(errorCode: ErrorCode) {
   switch (errorCode) {
